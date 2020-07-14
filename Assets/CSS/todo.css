@@ -1,7 +1,9 @@
-*{
+* {
   box-sizing: border-box;
 }
+
 /*NavBar*/
+
 .topnav {
   background-color: black;
   overflow: hidden;
@@ -27,6 +29,7 @@
 }
 
 /* todo background */
+
 #herohome {
   background-image: url("https://jw-webmagazine.com/wp-content/uploads/2019/06/jw-5d1576d59331b9.48614802.jpeg");
   background-repeat: no-repeat;
@@ -53,75 +56,70 @@ html body {
   font-size: 40px;
   width: 100%;
 }
+
 /* Card */
+
 .wrapper {
   display: flex;
   width: 100%;
 }
 
 @media only screen and (max-width: 1000px) {
-.wrapper {
-  display: flex;
-  flex-direction: column;
-  align-content: center;
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
   }
-
-.container {
-  padding: 2px 16px;
+  .container {
+    padding: 2px 16px;
+  }
 }
-
-/*footer logos */
-
-footer {
-  background-color: grey;
-
-  bottom: 0;
-  width: 100%;
-}
-.media {
-  text-decoration: none;
-  text-align: center;
-  padding-bottom: 5px;
-  padding-top: 10px;
-}
-
-.media a {
-  padding: 12px;
-}
-
-#logo-footer {
-  font-weight: bold;
-  text-align: center;
-  letter-spacing: 4px;
-  color: black;
-  text-decoration: none;
-  padding: 2px;
-}
-
-.copy {
-  text-align: center;
-  color: black;
-  margin: 0;
-  padding: 8px 0 15px 0;
-}
-
-/* Facebook */
-.fa-facebook {
-  background: #3b5998;
-  color: white;
-}
-/*twitter*/
-.fa-twitter {
-  background: #55acee;
-  color: black;
-}
-/*youtube*/
-.fa-youtube {
-  background: #bb0000;
-  color: white;
-}
-/*instagram*/
-.fa-instagram {
-  background: #125688;
-  color: white;
-}
+  /*footer logos */
+  footer {
+    background-color: grey;
+    bottom: 0;
+    width: 100%;
+  }
+  .media {
+    text-decoration: none;
+    text-align: center;
+    padding-bottom: 5px;
+    padding-top: 10px;
+  }
+  .media a {
+    padding: 12px;
+  }
+  #logo-footer {
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 4px;
+    color: black;
+    text-decoration: none;
+    padding: 2px;
+  }
+  .copy {
+    text-align: center;
+    color: black;
+    margin: 0;
+    padding: 8px 0 15px 0;
+  }
+  /* Facebook */
+  .fa-facebook {
+    background: #3b5998;
+    color: white;
+  }
+  /*twitter*/
+  .fa-twitter {
+    background: #55acee;
+    color: black;
+  }
+  /*youtube*/
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  /*instagram*/
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
